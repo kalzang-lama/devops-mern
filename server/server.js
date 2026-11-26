@@ -20,7 +20,7 @@ app.use('/api/tasks', taskRoutes);
 
 let userName = 'kazang';
 
-// console.log(userName);
+console.log(userName);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
